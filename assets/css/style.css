@@ -396,3 +396,149 @@ header {
     position: relative;
     transform: translateY(-16px);
 }
+
+/* ========= FEATURED ===========*/
+.featured {
+    padding: 170px 0;
+}
+
+.featured__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.featured__media {
+    width: 48.7%;
+}
+
+.featured__img {
+    border-radius: 6px;
+    height: 370px;
+}
+
+.featured figure {
+    position: relative;
+    padding: 0 58px 121px 0;
+}
+
+.featured__img:first-child {
+    width: 512px;
+}
+
+.featured__img:nth-child(2) {
+    width: 332px;
+    position: absolute;
+    left: 230px;
+    top: 121px;
+}
+
+.featured__content {
+    width: 40%;
+}
+
+.featured__desc {
+    margin-top: 18px;
+    color: #575F66;
+    font-size: 1.8rem;
+    font-weight: 300;
+    line-height: 3rem;
+}
+
+.featured__more {
+    margin-top: 38px;
+}
+
+/* ============ MEMBER= ===============*/
+
+.member {
+    text-align: center;
+    padding-bottom: 170px;
+}
+
+.member__heading {
+    text-align: center;
+}
+
+.member__btn {
+    display: inline-block;
+    margin: 38px auto 70px auto;
+}
+
+.member__list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+
+.member .member-item {
+    border-radius: 6px;
+}
+
+.member .member-item:hover .member-item__img {
+    transform: scale(1.1);
+}
+
+.member-item__figure {
+    border-radius: 6px;
+    background-color: #EAF6FF;
+    overflow: hidden;
+}
+
+.member-item__img {
+    width: 100%;
+    height: 290px;
+    border-radius: 6px;
+    object-fit: cover;
+    transition: 0.25s;
+}
+
+.member__heading2 {
+    margin-top: 12px;
+    color: #10375C;
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 2.8rem;
+}
+
+.member__info {
+    color: #575F66;
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 300;
+    line-height: 2.6rem;
+}
+
+.member__control {
+    margin-top: 38px;
+    display: flex;
+    justify-content: center;
+}
+
+.member__control-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    outline: none;
+    border: 1px solid #575F66;
+    transition: 0.25s;
+}
+
+.member__control-btn:first-child {
+    margin-right: 18px;
+}
+
+.member__control-btn:hover {
+    background-color: #2E80CE;
+    color: #fff;
+    cursor: pointer;
+}
+
+.member__control-next-icon {
+    rotate: 180deg;
+}

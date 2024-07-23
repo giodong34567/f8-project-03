@@ -453,7 +453,6 @@ header {
 
 .member {
     text-align: center;
-    padding-bottom: 170px;
 }
 
 .member__heading {
@@ -526,19 +525,69 @@ header {
     border-radius: 50%;
     outline: none;
     border: 1px solid #575F66;
-    transition: 0.25s;
+    transition: background-color 0.5s;
+    cursor: pointer;
+    transition-timing-function: ease-in;
+}
+
+.member__control-btn:hover {
+    background-color: #2E80CE;
+    color: #fff;
 }
 
 .member__control-btn:first-child {
     margin-right: 18px;
 }
 
-.member__control-btn:hover {
-    background-color: #2E80CE;
-    color: #fff;
-    cursor: pointer;
-}
-
 .member__control-next-icon {
     rotate: 180deg;
+}
+
+.install {
+    margin-top: 180px;
+}
+
+.install__inner {
+    padding: 0 70px;
+    background-color: #2e80ce;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 4px;
+}
+
+.install__img {
+    display: block;
+    width: 284px;
+    height: 522px;
+    margin-top: -95px;
+    object-fit: cover;
+}
+
+.install__content {
+    max-width: 586px;
+}
+
+.install__heading {
+    width: 490px;
+    color: #fff;
+    font-size: 5rem;
+    font-weight: 600;
+    line-height: 6rem;
+    letter-spacing: -0.1rem;
+}
+
+.install__desc {
+    width: 586px;
+    margin-top: 18px;
+    color: #FFF;
+    font-size: 1.8rem;
+    font-weight: 300;
+    line-height: 3rem;
+}
+
+.install__row {
+    display: flex;
+    column-gap: 28px;
+    margin-top: 38px;
 }
